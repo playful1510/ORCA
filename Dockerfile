@@ -15,7 +15,7 @@ USER root
 
 RUN apt-get update -q && \
     apt-get install -q -y --no-install-recommends \
-    apt-get -y install htop
+    apt-get -y install htop \
         git \
         zsh \
         sudo \
